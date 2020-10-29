@@ -32,7 +32,7 @@ function draw() {
     text(s,slider.x+slider.width+10,20) 
     text((60/mod).toFixed(2) + ' Hz',sliderMod.x+sliderMod.width+10,40) 
     textAlign(RIGHT)
-    text('Press "m" to switch controls',width,20)
+    text('Press "m" to switch controls',width-20,20)
 
     stroke('black')
     noFill()
